@@ -31,7 +31,7 @@ body{
 
 .user a{
     color: rgb(137 99 192);
-    text-decoration: underline;
+    text-decoration: none;
 }
 .user a:hover{
     color: rgb(120, 80, 165);
