@@ -18,4 +18,4 @@ An interactive online JavaScript application of virtual drums-set kit, where the
 
 ## Hosting
  - The application has been hosted via [Netlify.app](https://netlify.app)
- - Host [link]()
+ - Host [link](https://whiplashjs.netlify.app/)
