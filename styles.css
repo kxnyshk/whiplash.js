@@ -1,0 +1,187 @@
+html{
+    scroll-behavior: smooth;
+   
+}
+
+body{
+    background-color: #85FFBD;
+    background-image: linear-gradient(135deg, #85FFBD 0%, #FFFB7D 90%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.jumbotron{
+    margin-top: 2.5em;
+    margin-bottom: 3em;
+}
+
+.header{
+    color: rgb(47, 79, 79, 0.9);
+    font-family: 'Square Peg', cursive;
+    font-size: 6.5em;
+}
+
+.dev{
+    margin-top: -2em;
+    margin-bottom: 2em;
+    font-size: 0.9em;
+    color: rgb(47, 79, 79, 0.9);
+    z-index: 1;
+}
+
+.user a{
+    color: rgb(137 99 192);
+    text-decoration: underline;
+}
+.user a:hover{
+    color: rgb(120, 80, 165);
+}
+.user a:focus{
+    color: rgb(137 99 192);
+}
+.user a:active{
+    color: rgb(137 99 192);
+}
+
+.key-note{
+    color: rgb(47, 79, 79, 1);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255, 0.4);
+    cursor: pointer;
+    box-shadow: 0 0 15px darkslategray;
+    clip-path: inset(0px -15px -15px 0px);
+    transition: all 0.1s;
+}
+
+.key-note:hover{
+    color: white;
+    border-color: darkslategray;
+    background-color: darkslategray;
+}
+
+.key-note:focus{
+    color: white;
+    border-color: darkslategray;
+    background-color: darkslategray;
+}
+
+.key-note:active{
+    color: darkslategray;
+    border-color: darkslategray;
+    background-color: white;
+}
+
+.key-sound{
+    font-size: 0.55em;
+}
+
+.key-note-A{
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.key-note-S{
+    padding-left: 3.1em;
+    padding-right: 3.1em;
+}
+
+.key-note-D{
+    padding-left: 3.1em;
+    padding-right: 3.1em;
+}
+
+.key-note-F{
+    padding-left: 2.8em;
+    padding-right: 2.8em;
+}
+
+.key-note-G{
+    padding-left: 2.9em;
+    padding-right: 2.9em;
+}
+
+.key-note-H{
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+}
+
+.key-note-J{
+    padding-left: 2.9em;
+    padding-right: 2.9em;
+}
+
+.key-note-K{
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+}
+
+.key-note-L{
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+}
+
+.playing-note{
+    transform:scale(1.1);
+    color: white !important;
+    clip-path: inset(0px -15px -15px 0px);
+}
+
+.playing-note-A{
+    border-color: #FF7070 !important;
+    background-color: #FF7070 !important;
+    box-shadow: 0 0 15px #FF7070;
+}
+
+.playing-note-S{
+    border-color: #FFBA52 !important;
+    background-color: #FFBA52 !important;
+    box-shadow: 0 0 15px #FFBA52;
+}
+
+.playing-note-D{
+    border-color: #FFFC97 !important;
+    background-color: #FFFC97 !important;
+    box-shadow: 0 0 15px #FFFC97;
+}
+
+.playing-note-F{
+    border-color: #CFFF5D !important;
+    background-color: #CFFF5D !important;
+    box-shadow: 0 0 15px #CFFF5D;
+}
+
+.playing-note-G{
+    border-color: #64FF6D !important;
+    background-color: #64FF6D !important;
+    box-shadow: 0 0 15px #64FF6D;
+}
+
+.playing-note-H{
+    border-color: #5DFFAE !important;
+    background-color: #5DFFAE !important;
+    box-shadow: 0 0 15px #5DFFAE;
+}
+
+.playing-note-J{
+    border-color: #95A8FF !important;
+    background-color: #95A8FF !important;
+    box-shadow: 0 0 15px #95A8FF;
+}
+
+.playing-note-K{
+    border-color: #DBA8FF !important;
+    background-color: #DBA8FF !important;
+    box-shadow: 0 0 15px #DBA8FF;
+}
+
+.playing-note-L{
+    border-color: #8B5757 !important;
+    background-color: #8B5757 !important;
+    box-shadow: 0 0 15px #8B5757;
+}
